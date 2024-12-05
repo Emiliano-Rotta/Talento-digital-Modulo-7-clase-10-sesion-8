@@ -185,3 +185,76 @@
 
 // Salida esperada:
 // Debe mostrarse en consola la información de los usuarios creados y los resultados de las búsquedas.
+
+
+//------------------------------------------------------------------------------------------
+// Ejercicio 3: Relaciones entre Autor y Libros
+// Consigna:
+
+// Crea una clase llamada Autor, que tenga los siguientes atributos:
+
+// id: un identificador único.
+// nombre: el nombre del autor.
+// libros: un array que almacene los libros escritos por el autor (vacío al inicio).
+// Agrega a la clase Autor los siguientes métodos:
+
+// agregarLibro(libro): recibe un objeto libro y lo añade al array libros.
+// mostrarLibros(): imprime en consola el nombre del autor y el título de cada libro que ha escrito.
+// Crea otra clase llamada Libro, que tenga los siguientes atributos:
+
+// id: un identificador único.
+// titulo: el título del libro.
+// genero: el género del libro.
+// Simula lo siguiente:
+
+// Crea dos autores.
+// Crea al menos cuatro libros, distribuidos entre ambos autores.
+// Usa el método agregarLibro() para asociar cada libro a su respectivo autor.
+// Finalmente, usa el método mostrarLibros() para listar los libros de cada autor.
+// Salida esperada:
+// La consola debe mostrar los libros escritos por cada autor, con un formato similar al siguiente:
+
+// Libros de Gabriel García Márquez:
+// - Cien años de soledad
+// - El coronel no tiene quien le escriba
+
+// Libros de Isabel Allende:
+// - La casa de los espíritus
+// - De amor y de sombra
+
+
+
+// Ejercicio 4: Relaciones entre Estudiantes y Cursos
+// Consigna:
+
+// Crea una clase llamada Estudiante con los siguientes atributos:
+
+// id: un identificador único.
+// nombre: el nombre del estudiante.
+// cursos: un array para almacenar los cursos en los que está inscrito (vacío al inicio).
+// Agrega a la clase Estudiante los siguientes métodos:
+
+// inscribirCurso(curso): recibe un objeto curso y lo añade al array cursos.
+// mostrarCursos(): imprime en consola el nombre del estudiante y el nombre de cada curso en el que está inscrito.
+// Crea otra clase llamada Curso con los siguientes atributos:
+
+// id: un identificador único.
+// nombre: el nombre del curso.
+// duracion: la duración del curso en horas.
+// Simula lo siguiente:
+
+// Crea dos estudiantes.
+// Crea al menos cinco cursos.
+// Inscribe cada estudiante en algunos cursos usando el método inscribirCurso().
+// Finalmente, usa el método mostrarCursos() para listar los cursos en los que está inscrito cada estudiante.
+// Salida esperada:
+// La consola debe mostrar los cursos en los que está inscrito cada estudiante, con un formato similar al siguiente:
+
+// Cursos de Ana Rodríguez:
+// - Introducción a la programación
+// - Desarrollo web con JavaScript
+
+// Cursos de Pedro Gutiérrez:
+// - Desarrollo web con JavaScript
+// - Bases de datos
+// - Diseño de interfaces
